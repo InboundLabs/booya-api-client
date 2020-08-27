@@ -1,6 +1,6 @@
 {
   "name": "@inboundlabs/booya-api-client",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Node.js Client Library for Booya 2.0 API",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,12 @@
     "name": "David Semakula",
     "email": "tdsemakula@gmail.com",
     "url": "http://davidsemakula.com"
+  },
+  "homepage": "https://github.com/InboundLabs/booya-api-client",
+  "bugs": "https://github.com/InboundLabs/booya-api-client/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InboundLabs/booya-api-client.git"
   },
   "license": "ISC",
   "dependencies": {
