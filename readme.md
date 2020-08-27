@@ -1,7 +1,7 @@
 # Booya API Client
 Node.js Client Library for Booya 2.0 API
 
-# Installation
+## Installation
 ```
 # npm 
 npm install --save @inboundlabs/booya-api-client
@@ -10,7 +10,7 @@ npm install --save @inboundlabs/booya-api-client
 yarn add @inboundlabs/booya-api-client
 ```
 
-# Initialize API Client
+## Initialize API Client
 ``` JavaScript
 const BooyaClient = require('@inboundlabs/booya-api-client');
  
@@ -19,10 +19,11 @@ const appId = 'inboundlabs'; // Replace with your appId from https://go.booya.io
 const booyaClient = new BooyaClient(appId);
 ```
 
-# Usage
-## Verify Token
+## Usage
+### Verify Token
 
 ``` JavaScript
+const token = '<user token here>'; // Replace with code to retrieve token e.g from request body or headers
 booyaClient.verify(token).then(response => {
     const user = response.user;
     // Do authenticated stuff
